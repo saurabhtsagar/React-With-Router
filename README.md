@@ -1,11 +1,7 @@
 # React-With-Router
 
-<h1>Reference Sites Used </h1>
-<ul>
-    <li>
-        <a href="https://www.w3jar.com/react-navigation-example-with-react-router-dom/" target="_blank">
-        https://www.w3jar.com/react-navigation-example-with-react-router-dom</a>
-    </li>
+<h4>Bootsrap and Flex Help Sites</h4>
+<ul>    
      <li>
         <a href="https://css-tricks.com/dont-overthink-flexbox-grids/" target="_blank">
          https://css-tricks.com/dont-overthink-flexbox-grids/</a>
@@ -18,6 +14,10 @@
 <br>
 <h4>React Help Sites</h4>
 <ul>
+    <li>
+        <a href="https://www.w3jar.com/react-navigation-example-with-react-router-dom/" target="_blank">
+        https://www.w3jar.com/react-navigation-example-with-react-router-dom</a>
+    </li>   
     <li>
         <a href="https://reactjs.org/docs/context.html#gatsby-focus-wrapper" target="_blank">
         https://reactjs.org/docs/context.html#gatsby-focus-wrapper</a>
