@@ -17,7 +17,7 @@ class Header extends Component {
                                 <span className="nav-link active" href="javascripft:void(0)"><NavLink exact to="/">Home</NavLink></span>
                             </li>
                             <li className="nav-item">
-                                <span className="nav-link" href="javascripft:void(0)"> <NavLink exact to="/about">About</NavLink></span>
+                                <span className="nav-link" href="javascripft:void(0)"> <NavLink exact to="/about/sagar">About</NavLink></span>
                             </li>
                             <li className="nav-item">
                                 <span className="nav-link" href="javascripft:void(0)" tabIndex="-1"><NavLink exact to="/contact">Contact</NavLink></span>
