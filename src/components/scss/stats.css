@@ -1,0 +1,25 @@
+.card {
+    /* width: 24.5%; */
+    margin: 1px;
+    height: 20rem;
+    border: 0;
+    flex: 1 1 0px;
+}
+
+.card .body_items {
+    font-size: 14px;
+    flex: 1 1 0px;
+    text-align: center;
+    /* width: 33.33%;
+    text-align: center; */
+}
+
+.card-body{
+    background-color: #dc3545;
+}
+
+img{
+    margin: 10px ;
+    padding: 10px ;
+    width: 100px !important;
+}

@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-
+import Statistics from './stats'
+// start, end, center, baseline, or stretch
 class Dashboard extends Component {
     state = {}
     render() {
         return (
-            <div>
-                <h1>Hello Dashboard Page</h1>
-            </div>
+            <Statistics></Statistics>
         );
     }
 }
