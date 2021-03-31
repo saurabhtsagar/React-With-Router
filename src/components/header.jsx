@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 class Header extends Component {
 
     render() {
-        return (         
+        return (
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">Navbar scroll</a>
@@ -22,7 +22,7 @@ class Header extends Component {
                             <li className="nav-item">
                                 <span className="nav-link" href="javascripft:void(0)" tabIndex="-1"><NavLink exact to="/contact">Contact</NavLink></span>
                             </li>
-                            
+
                         </ul>
                         <form className="d-flex align-items-end">
                             <input className="form-control mr-2" type="search" placeholder="Search" aria-label="Search" />
