@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
 
 class Hierarchy extends Component {
-    state = {  };
+    state = {};
 
     //selected node from hierarchy
-    sendSelectedNode = ()=>{
+    sendSelectedNode = () => {
         this.props.onNodeSelect('saurabh')
     }
-    
-    render() { 
+
+    render() {
         return (
             <div>
-                 <h2>Hieararchy for Ciient : {this.props.selectedClient}</h2>
-                 <button onClick={this.sendSelectedNode}>Send Selected Node</button>
+                <h2>Hieararchy for Ciient : {this.props.selectedClient}</h2>
+                <button onClick={this.sendSelectedNode}>Send Selected Node</button>
             </div>
-         );
+        );
     }
 }
- 
+
 export default Hierarchy;

@@ -20,9 +20,14 @@ class Header extends Component {
                                 <span className="nav-link" href="javascripft:void(0)"> <NavLink exact to="/about/sagar">About</NavLink></span>
                             </li>
                             <li className="nav-item">
-                                <span className="nav-link" href="javascripft:void(0)" tabIndex="-1"><NavLink exact to="/contact">Contact</NavLink></span>
+                                <span className="nav-link" href="javascripft:void(0)"><NavLink exact to="/contact">Contact</NavLink></span>
                             </li>
-
+                            <li className="nav-item">
+                                <span className="nav-link" href="javascripft:void(0)"><NavLink exact to="/users">Users</NavLink></span>
+                            </li>
+                            <li className="nav-item">
+                                <span className="nav-link" href="javascripft:void(0)" tabIndex="-1"><NavLink exact to="/salary">Salaries</NavLink></span>
+                            </li>
                         </ul>
                         <form className="d-flex align-items-end">
                             <input className="form-control mr-2" type="search" placeholder="Search" aria-label="Search" />

@@ -3,14 +3,14 @@ import Statistics from './stats'
 import Hierarchy from "./hierarchy";
 // start, end, center, baseline, or stretch
 class Dashboard extends Component {
-    state = { 
+    state = {
         selectedClientId: 9,
-        selectedNode:''
-     };
+        selectedNode: ''
+    };
 
-    onNodeSelectHandler = (node)=>{
+    onNodeSelectHandler = (node) => {
         console.log(node);
-        this.setState({selectedNode:node});
+        this.setState({ selectedNode: node });
     }
 
     render() {
@@ -18,6 +18,7 @@ class Dashboard extends Component {
             <div className="row m-0">
                 <div className="left w-100">selected Client : {this.state.selectedClientId}</div>
                 <div className="left w-100">selected Node Of Given Client: {this.state.selectedNode}</div>
+          
 
                 <div className="col-md-4 bg-primary"><Hierarchy selectedClient={this.state.selectedClientId} onNodeSelect={this.onNodeSelectHandler}></Hierarchy></div>
                 <div className="col-md-8 bg-warning p-2"><Statistics></Statistics></div>
